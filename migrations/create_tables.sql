@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS occurences;
+\c occurences;
+
 DROP TABLE IF EXISTS animals;
 DROP TABLE IF EXISTS plants;
 
